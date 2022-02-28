@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+header {
+    background-image: url(../img/pattern.png);
+    background-color: #4ea0ff;
+    background-size: contain;
+    margin-top: 0;
+    max-width: 100%;
+}
+/* /Header */
+
+main {
+    margin: 5px;
+    /* Cambiamento Bonus */
+    margin-left: 120px;
+    margin-right: 120px;
+    /* /Cambiamento Bonus */
+}
+
+.font-size {
+    font-size: 15px;
+}
+
+/* Formattazione Logo */
+.logo {
+    /* Cambiamento Bonus */
+    padding-top: 50px;
+    padding-left: 120px;
+    width: 20%;
+    /* /Cambiamento Bonus */
+    height: 10%;
+    object-fit: cover;
+    background-position-x: left;
+    background-position-y: bottom;
+}
+/* /Formattazione Logo */
+
+
+h1 {
+    margin-right: 200px;
+}
+
+/* Formattazione appendici */
+.appendix-style {
+    color: gray;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#appendix-style-small {
+    color: gray;
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#the-booleaner {
+    text-decoration: none;
+    color: #41b6e9;
+}
+
+#photo-appendixes {
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+/* Formattazione appendici */
+
+/* Evidenzia parte testo */
+.background-color {
+    background-color: yellow;
+}
+/* Evidenzia parte testo */
+
+/* Formattazione lista */
+ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+/* /Formattazione lista */
+
+/* Layout Tabella */
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#table-head {
+    background-color: #4ea0ff;
+    color: white;
+
+}
+
+.table-body-1-3 {
+    background-color: #41b6e9;
+}
+/* /Layout Tabella */
+
+#spaziatura {
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+/* Colore Testo su foto */
+.text-color {
+    color: white;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+/* /Colore testo su foto */
+
+/* Immagini Background */
+#background-image-1 {
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 16%;
+    padding-left: 7px;
+    padding-top: 7px;
+}
+ 
+#background-image-2 {
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 18%;
+    padding-left: 7px;
+    padding-top: 7px;
+}
+/* /Immagini Background */
