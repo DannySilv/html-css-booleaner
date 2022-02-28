@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header {
@@ -9,6 +10,10 @@ header {
     background-color: #4ea0ff;
     background-size: contain;
     margin-top: 0;
+}
+
+main {
+    margin: 5px;
 }
 
 .logo {
@@ -20,4 +25,32 @@ header {
     object-fit: cover;
     background-position-x: left;
     background-position-y: bottom;
+}
+
+h1 {
+    margin-right: 200px;
+}
+
+.appendix-style {
+    color: gray;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#appendix-style-small {
+    color: gray;
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#the-booleaner {
+    text-decoration: none;
+    color: #41b6e9;
+}
+
+#photo-appendixes {
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
